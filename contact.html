@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <div class="nav-bar">
+        <a class="nav-btn" href="index.html">Home</a>
+        <a class="nav-btn" href="work.html">Work</a>
+        <a class="nav-btn" href="contact.html">Contact</a>
+    </div>
+    <div class="contact-header">
+        <h1 class="contact-heading">Contact page</h1>
+    </div>
+    <div class="contact-body">
+        <div class="top">
+            <p class="response">Please complete the form and I will get back with you within 24 hours of the
+                submission, or email me directly at freelancer@zachrobinson.dev</p>
+        </div>
+        <div class="form-container">
+            <h1 class="form-header">Contact me!</h1>
+            <form action="https://formsubmit.co/a3df0e2a4d41c04cc506efedba5e58c2" method="POST">
+                <h2>Do you need imediate help?</h2>
+                <div class="radio">
+                    <input class="radio-choice" id="choice-1" type="radio" name="Imediate-help" value="Yes">
+                    <label for="choice-1">Yes</label>
+                </div>
+                <div class="radio">
+                    <input class="radio-choice" id="choice-2" type="radio" name="Imediate-help" value="No">
+                    <label for="choice-2">No</label>
+                </div>
+                <label class="lab" for="q1">How can I help you?</label>
+                <input placeholder="I could use some help with..." class="form-input" id="q1" type="text" name="text">
+                <label class="lab" for="q2">Please enter your email adress.</label>
+                <input placeholder="your@email.com" class="form-input" id="q2" type="email" name="email">
+                <input id="form-submit-btn" class="submit" type="submit">
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-top">
+            <h1 class="thanks-h">Thank you for checking out my portfolio/resume!</h1>
+        </div>
+        <div class="footer-bottom">
+            <div><a href="index.html"><button class="footer-link">Home</button></a></div>
+            <div><a href="work.html"><button class="footer-link">Work</button></a></div>
+            <div><a href="contact.html"><button class="footer-link">Contact</button></a></div>
+            <br>
+            <p class="email">Email: freelancer@zachrobinson.dev</p>
+        </div>
+    </div>
+</body>
+
+</html>
